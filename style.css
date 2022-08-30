@@ -1,0 +1,82 @@
+body {
+    background-color: #002B5B;
+}
+
+/* Start Teil */
+
+.gameName {
+    text-align: center;
+    color: #FFE3E3;
+}
+
+.beschreibung {
+    margin: auto;
+    margin-top: 60px;
+    width: 60%;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.beschreibung > p {
+    color: #FFE3E3; 
+}
+
+.startBtn {
+    margin: auto;
+    margin-top: 60px;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.startGameButton {
+
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    left: 50%;
+}
+
+/* Game Teil */
+
+.secretNumber {
+    width: 10%;
+    text-align: center;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+
+.secretNumber > h1 {
+    color: #002B5B;
+    background-color: #FFE3E3;
+    padding: 10px 10px;
+}
+
+.allNumbers {
+    width: 95%;
+    margin: auto;
+}
+
+.allNumbers > div {
+    float: left;
+    padding: 25px;
+    background-color: #FFE3E3;
+    color: #002B5B;
+    margin: 1px;
+}
+
+.whiteColor {
+    color: #FFE3E3;
+    width: 80%;
+}
+
+.scoreView {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 10%;
+}
+
+.currentHighscore {
+    display: inline;
+}
